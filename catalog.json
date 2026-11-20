@@ -1,0 +1,1080 @@
+{
+  "cpf": {
+    "key": "cpf",
+    "module": "Consultas básicas",
+    "label": "CPF",
+    "method": "GET",
+    "path": "/api/v1/query/cpf",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "cnpj": {
+    "key": "cnpj",
+    "module": "Empresas e negócios",
+    "label": "CNPJ",
+    "method": "GET",
+    "path": "/api/v1/query/cnpj",
+    "params": [
+      {
+        "name": "cnpj",
+        "label": "CNPJ",
+        "required": true
+      }
+    ]
+  },
+  "cnpj_base": {
+    "key": "cnpj_base",
+    "module": "Empresas e negócios",
+    "label": "CNPJ por base",
+    "method": "GET",
+    "path": "/api/v1/query/cnpj_base",
+    "params": [
+      {
+        "name": "cnpj",
+        "label": "CNPJ",
+        "required": true
+      }
+    ]
+  },
+  "nome": {
+    "key": "nome",
+    "module": "Consultas básicas",
+    "label": "Nome",
+    "method": "GET",
+    "path": "/api/v1/query/nome",
+    "params": [
+      {
+        "name": "nome",
+        "label": "Nome",
+        "required": true
+      },
+      {
+        "name": "uf",
+        "label": "UF",
+        "required": false
+      }
+    ]
+  },
+  "telefone": {
+    "key": "telefone",
+    "module": "Consultas básicas",
+    "label": "Telefone",
+    "method": "GET",
+    "path": "/api/v1/query/telefone",
+    "params": [
+      {
+        "name": "telefone",
+        "label": "Telefone",
+        "required": true
+      }
+    ]
+  },
+  "rg": {
+    "key": "rg",
+    "module": "Documentos",
+    "label": "RG",
+    "method": "GET",
+    "path": "/api/v1/query/rg",
+    "params": [
+      {
+        "name": "rg",
+        "label": "RG",
+        "required": true
+      }
+    ]
+  },
+  "titulo": {
+    "key": "titulo",
+    "module": "Documentos",
+    "label": "Título de eleitor",
+    "method": "GET",
+    "path": "/api/v1/query/titulo",
+    "params": [
+      {
+        "name": "titulo",
+        "label": "TITULO",
+        "required": true
+      }
+    ]
+  },
+  "pis": {
+    "key": "pis",
+    "module": "Documentos",
+    "label": "PIS",
+    "method": "GET",
+    "path": "/api/v1/query/pis",
+    "params": [
+      {
+        "name": "pis",
+        "label": "PIS",
+        "required": true
+      }
+    ]
+  },
+  "nis": {
+    "key": "nis",
+    "module": "Documentos",
+    "label": "NIS",
+    "method": "GET",
+    "path": "/api/v1/query/nis",
+    "params": [
+      {
+        "name": "nis",
+        "label": "NIS",
+        "required": true
+      }
+    ]
+  },
+  "cnh": {
+    "key": "cnh",
+    "module": "Documentos",
+    "label": "CNH",
+    "method": "GET",
+    "path": "/api/v1/query/cnh",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "parentes": {
+    "key": "parentes",
+    "module": "Relações",
+    "label": "Parentes",
+    "method": "GET",
+    "path": "/api/v1/query/parentes",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "vizinhos": {
+    "key": "vizinhos",
+    "module": "Relações",
+    "label": "Vizinhos",
+    "method": "GET",
+    "path": "/api/v1/query/vizinhos",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "cep": {
+    "key": "cep",
+    "module": "Localização",
+    "label": "CEP",
+    "method": "GET",
+    "path": "/api/v1/query/cep",
+    "params": [
+      {
+        "name": "cep",
+        "label": "CEP",
+        "required": true
+      }
+    ]
+  },
+  "cep2": {
+    "key": "cep2",
+    "module": "Localização",
+    "label": "CEP emails",
+    "method": "GET",
+    "path": "/api/v1/query/cep2",
+    "params": [
+      {
+        "name": "cep",
+        "label": "CEP",
+        "required": true
+      }
+    ]
+  },
+  "cep3": {
+    "key": "cep3",
+    "module": "Localização",
+    "label": "CEP telefones",
+    "method": "GET",
+    "path": "/api/v1/query/cep3",
+    "params": [
+      {
+        "name": "cep",
+        "label": "CEP",
+        "required": true
+      }
+    ]
+  },
+  "cep4": {
+    "key": "cep4",
+    "module": "Localização",
+    "label": "CEP + nome",
+    "method": "GET",
+    "path": "/api/v1/query/cep4",
+    "params": [
+      {
+        "name": "cep",
+        "label": "CEP",
+        "required": true
+      },
+      {
+        "name": "nome",
+        "label": "Nome",
+        "required": false
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  },
+  "endereco": {
+    "key": "endereco",
+    "module": "Localização",
+    "label": "Endereço",
+    "method": "GET",
+    "path": "/api/v1/query/endereco",
+    "params": [
+      {
+        "name": "uf",
+        "label": "UF",
+        "required": true
+      },
+      {
+        "name": "logradouro",
+        "label": "Logradouro",
+        "required": true
+      },
+      {
+        "name": "cidade",
+        "label": "Cidade",
+        "required": false
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  },
+  "estado": {
+    "key": "estado",
+    "module": "Localização",
+    "label": "Estado",
+    "method": "GET",
+    "path": "/api/v1/query/estado",
+    "params": [
+      {
+        "name": "uf",
+        "label": "UF",
+        "required": true
+      }
+    ]
+  },
+  "nome2": {
+    "key": "nome2",
+    "module": "Busca por nome",
+    "label": "Nome base 2",
+    "method": "GET",
+    "path": "/api/v1/query/nome2",
+    "params": [
+      {
+        "name": "nome",
+        "label": "Nome",
+        "required": true
+      }
+    ]
+  },
+  "nome3": {
+    "key": "nome3",
+    "module": "Busca por nome",
+    "label": "Nome + CPF parcial",
+    "method": "GET",
+    "path": "/api/v1/query/nome3",
+    "params": [
+      {
+        "name": "nome",
+        "label": "Nome",
+        "required": true
+      },
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": false
+      },
+      {
+        "name": "cpf_meio",
+        "label": "CPF meio",
+        "required": false
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  },
+  "nome4": {
+    "key": "nome4",
+    "module": "Busca por nome",
+    "label": "Nome + cidade",
+    "method": "GET",
+    "path": "/api/v1/query/nome4",
+    "params": [
+      {
+        "name": "nome",
+        "label": "Nome",
+        "required": true
+      },
+      {
+        "name": "cidade",
+        "label": "Cidade",
+        "required": true
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  },
+  "nome5": {
+    "key": "nome5",
+    "module": "Busca por nome",
+    "label": "Nome + ano",
+    "method": "GET",
+    "path": "/api/v1/query/nome5",
+    "params": [
+      {
+        "name": "nome",
+        "label": "Nome",
+        "required": true
+      },
+      {
+        "name": "ano",
+        "label": "Ano",
+        "required": true
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  },
+  "nome6": {
+    "key": "nome6",
+    "module": "Busca por nome",
+    "label": "Nome + filiação e nascimento",
+    "method": "GET",
+    "path": "/api/v1/query/nome6",
+    "params": [
+      {
+        "name": "nome",
+        "label": "Nome",
+        "required": true
+      },
+      {
+        "name": "mae",
+        "label": "MAE",
+        "required": false
+      },
+      {
+        "name": "nasc",
+        "label": "Ano de nascimento",
+        "required": false
+      }
+    ]
+  },
+  "mae": {
+    "key": "mae",
+    "module": "Busca por nome",
+    "label": "Busca pelo nome da mãe",
+    "method": "GET",
+    "path": "/api/v1/query/mae",
+    "params": [
+      {
+        "name": "mae",
+        "label": "MAE",
+        "required": true
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  },
+  "email": {
+    "key": "email",
+    "module": "Contato",
+    "label": "Email",
+    "method": "GET",
+    "path": "/api/v1/query/email",
+    "params": [
+      {
+        "name": "email",
+        "label": "EMAIL",
+        "required": true
+      }
+    ]
+  },
+  "telefone_ddd": {
+    "key": "telefone_ddd",
+    "module": "Contato",
+    "label": "Telefones por DDD",
+    "method": "GET",
+    "path": "/api/v1/query/telefone_ddd",
+    "params": [
+      {
+        "name": "ddd",
+        "label": "DDD",
+        "required": true
+      }
+    ]
+  },
+  "telefone_full": {
+    "key": "telefone_full",
+    "module": "Contato",
+    "label": "Telefone completo",
+    "method": "GET",
+    "path": "/api/v1/query/telefone_full",
+    "params": [
+      {
+        "name": "phone",
+        "label": "Telefone",
+        "required": true
+      }
+    ]
+  },
+  "telefone_cpf": {
+    "key": "telefone_cpf",
+    "module": "Contato",
+    "label": "Telefones por CPF",
+    "method": "GET",
+    "path": "/api/v1/query/telefone_cpf",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "operadora": {
+    "key": "operadora",
+    "module": "Contato",
+    "label": "Operadora",
+    "method": "GET",
+    "path": "/api/v1/query/operadora",
+    "params": [
+      {
+        "name": "telefone",
+        "label": "Telefone",
+        "required": true
+      }
+    ]
+  },
+  "score": {
+    "key": "score",
+    "module": "Financeiro",
+    "label": "Score",
+    "method": "GET",
+    "path": "/api/v1/query/score",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "renda": {
+    "key": "renda",
+    "module": "Financeiro",
+    "label": "Renda",
+    "method": "GET",
+    "path": "/api/v1/query/renda",
+    "params": [
+      {
+        "name": "uf",
+        "label": "UF",
+        "required": false
+      },
+      {
+        "name": "sexo",
+        "label": "Sexo",
+        "required": false
+      },
+      {
+        "name": "idade_min",
+        "label": "Idade mínima",
+        "required": false
+      },
+      {
+        "name": "idade_max",
+        "label": "Idade máxima",
+        "required": false
+      },
+      {
+        "name": "min",
+        "label": "Renda mínima",
+        "required": false
+      },
+      {
+        "name": "max",
+        "label": "Renda máxima",
+        "required": false
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  },
+  "gerador": {
+    "key": "gerador",
+    "module": "Financeiro",
+    "label": "Busca por filtros",
+    "method": "GET",
+    "path": "/api/v1/query/gerador",
+    "params": [
+      {
+        "name": "uf",
+        "label": "UF",
+        "required": false
+      },
+      {
+        "name": "sexo",
+        "label": "Sexo",
+        "required": false
+      },
+      {
+        "name": "idade_min",
+        "label": "Idade mínima",
+        "required": false
+      },
+      {
+        "name": "idade_max",
+        "label": "Idade máxima",
+        "required": false
+      },
+      {
+        "name": "renda_min",
+        "label": "Renda mínima",
+        "required": false
+      },
+      {
+        "name": "renda_max",
+        "label": "Renda máxima",
+        "required": false
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      },
+      {
+        "name": "format",
+        "label": "Formato",
+        "required": false
+      },
+      {
+        "name": "raw",
+        "label": "Resposta bruta",
+        "required": false
+      },
+      {
+        "name": "cursor",
+        "label": "Cursor",
+        "required": false
+      }
+    ]
+  },
+  "cbo": {
+    "key": "cbo",
+    "module": "Financeiro",
+    "label": "CBO",
+    "method": "GET",
+    "path": "/api/v1/query/cbo",
+    "params": [
+      {
+        "name": "cbo",
+        "label": "CBO",
+        "required": true
+      }
+    ]
+  },
+  "profissao": {
+    "key": "profissao",
+    "module": "Financeiro",
+    "label": "Profissão",
+    "method": "GET",
+    "path": "/api/v1/query/profissao",
+    "params": [
+      {
+        "name": "profissao",
+        "label": "Profissão",
+        "required": true
+      }
+    ]
+  },
+  "bin": {
+    "key": "bin",
+    "module": "Financeiro",
+    "label": "BIN",
+    "method": "GET",
+    "path": "/api/v1/query/bin",
+    "params": [
+      {
+        "name": "bin",
+        "label": "BIN",
+        "required": true
+      }
+    ]
+  },
+  "banco": {
+    "key": "banco",
+    "module": "Financeiro",
+    "label": "Banco",
+    "method": "GET",
+    "path": "/api/v1/query/banco",
+    "params": [
+      {
+        "name": "codigo",
+        "label": "Código",
+        "required": true
+      }
+    ]
+  },
+  "foto": {
+    "key": "foto",
+    "module": "Fotos",
+    "label": "Foto geral",
+    "method": "GET",
+    "path": "/api/v1/query/foto",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "foto_sp": {
+    "key": "foto_sp",
+    "module": "Fotos",
+    "label": "Foto SP",
+    "method": "GET",
+    "path": "/api/v1/query/foto_sp",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "foto_ma": {
+    "key": "foto_ma",
+    "module": "Fotos",
+    "label": "Foto MA",
+    "method": "GET",
+    "path": "/api/v1/query/foto_ma",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "foto_ro": {
+    "key": "foto_ro",
+    "module": "Fotos",
+    "label": "Foto RO",
+    "method": "GET",
+    "path": "/api/v1/query/foto_ro",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "foto_all": {
+    "key": "foto_all",
+    "module": "Fotos",
+    "label": "Foto todas as bases",
+    "method": "GET",
+    "path": "/api/v1/query/foto_all",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "placa": {
+    "key": "placa",
+    "module": "Veículos e outros",
+    "label": "Placa",
+    "method": "GET",
+    "path": "/api/v1/query/placa",
+    "params": [
+      {
+        "name": "placa",
+        "label": "Placa",
+        "required": true
+      }
+    ]
+  },
+  "random": {
+    "key": "random",
+    "module": "Veículos e outros",
+    "label": "Pessoa aleatória",
+    "method": "GET",
+    "path": "/api/v1/query/random",
+    "params": [
+      {
+        "name": "uf",
+        "label": "UF",
+        "required": false
+      }
+    ]
+  },
+  "profissionais": {
+    "key": "profissionais",
+    "module": "Profissional e veículos",
+    "label": "Profissionais",
+    "method": "GET",
+    "path": "/api/v1/query/profissionais",
+    "params": [
+      {
+        "name": "nome",
+        "label": "Nome",
+        "required": false
+      },
+      {
+        "name": "email",
+        "label": "EMAIL",
+        "required": false
+      },
+      {
+        "name": "profissao",
+        "label": "Profissão",
+        "required": false
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  },
+  "veiculos_busca": {
+    "key": "veiculos_busca",
+    "module": "Veículos e outros",
+    "label": "Busca de veículos",
+    "method": "GET",
+    "path": "/api/v1/query/veiculos_busca",
+    "params": [
+      {
+        "name": "marca",
+        "label": "Marca",
+        "required": false
+      },
+      {
+        "name": "uf",
+        "label": "UF",
+        "required": false
+      },
+      {
+        "name": "ano_min",
+        "label": "Ano mínimo",
+        "required": false
+      },
+      {
+        "name": "ano_max",
+        "label": "Ano máximo",
+        "required": false
+      },
+      {
+        "name": "modelo",
+        "label": "Modelo",
+        "required": false
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  },
+  "veiculos_placamassa": {
+    "key": "veiculos_placamassa",
+    "module": "Veículos e outros",
+    "label": "Consulta em lote por placas",
+    "method": "POST",
+    "path": "/api/v1/query/veiculos_placamassa",
+    "params": [
+      {
+        "name": "placas",
+        "label": "Placas",
+        "required": true
+      }
+    ]
+  },
+  "veiculos_cpf": {
+    "key": "veiculos_cpf",
+    "module": "Veículos e outros",
+    "label": "Veículos por CPF",
+    "method": "GET",
+    "path": "/api/v1/query/veiculos_cpf",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "empresas_cpf": {
+    "key": "empresas_cpf",
+    "module": "Empresas e negócios",
+    "label": "Empresas por CPF",
+    "method": "GET",
+    "path": "/api/v1/query/empresas_cpf",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "universitarios": {
+    "key": "universitarios",
+    "module": "Profissional e veículos",
+    "label": "Universitários",
+    "method": "GET",
+    "path": "/api/v1/query/universitarios",
+    "params": [
+      {
+        "name": "nome",
+        "label": "Nome",
+        "required": true
+      }
+    ]
+  },
+  "processos": {
+    "key": "processos",
+    "module": "Consultas públicas",
+    "label": "Processos judiciais",
+    "method": "GET",
+    "path": "/api/v1/query/processos",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "sancoes": {
+    "key": "sancoes",
+    "module": "Consultas públicas",
+    "label": "Sanções e cadastros públicos",
+    "method": "GET",
+    "path": "/api/v1/query/sancoes",
+    "params": [
+      {
+        "name": "cpf",
+        "label": "CPF",
+        "required": true
+      }
+    ]
+  },
+  "osint_recon": {
+    "key": "osint_recon",
+    "module": "OSINT",
+    "label": "Reconhecimento de alvo",
+    "method": "GET",
+    "path": "/api/v1/query/osint_recon",
+    "params": [
+      {
+        "name": "alvo",
+        "label": "Alvo",
+        "required": true
+      }
+    ]
+  },
+  "osint_vazamentos": {
+    "key": "osint_vazamentos",
+    "module": "OSINT",
+    "label": "Busca por email",
+    "method": "GET",
+    "path": "/api/v1/query/osint_vazamentos",
+    "params": [
+      {
+        "name": "email",
+        "label": "EMAIL",
+        "required": true
+      }
+    ]
+  },
+  "osint_dorks": {
+    "key": "osint_dorks",
+    "module": "OSINT",
+    "label": "Busca avançada",
+    "method": "GET",
+    "path": "/api/v1/query/osint_dorks",
+    "params": [
+      {
+        "name": "termo",
+        "label": "Termo",
+        "required": true
+      }
+    ]
+  },
+  "osint_wifi": {
+    "key": "osint_wifi",
+    "module": "OSINT",
+    "label": "Busca de rede Wi-Fi",
+    "method": "GET",
+    "path": "/api/v1/query/osint_wifi",
+    "params": [
+      {
+        "name": "bssid",
+        "label": "BSSID",
+        "required": false
+      },
+      {
+        "name": "termo",
+        "label": "Termo",
+        "required": false
+      }
+    ]
+  },
+  "osint_leads": {
+    "key": "osint_leads",
+    "module": "OSINT",
+    "label": "Busca de leads",
+    "method": "GET",
+    "path": "/api/v1/query/osint_leads",
+    "params": [
+      {
+        "name": "q",
+        "label": "Busca",
+        "required": true
+      }
+    ]
+  },
+  "osint_permutar": {
+    "key": "osint_permutar",
+    "module": "OSINT",
+    "label": "Permutação de nomes",
+    "method": "GET",
+    "path": "/api/v1/query/osint_permutar",
+    "params": [
+      {
+        "name": "nome",
+        "label": "Nome",
+        "required": true
+      },
+      {
+        "name": "dominio",
+        "label": "Domínio",
+        "required": false
+      }
+    ]
+  },
+  "osint_ipintel": {
+    "key": "osint_ipintel",
+    "module": "OSINT",
+    "label": "Inteligência de IP",
+    "method": "GET",
+    "path": "/api/v1/query/osint_ipintel",
+    "params": [
+      {
+        "name": "ip",
+        "label": "IP",
+        "required": true
+      }
+    ]
+  },
+  "osint_insta": {
+    "key": "osint_insta",
+    "module": "OSINT",
+    "label": "Busca por usuário social",
+    "method": "GET",
+    "path": "/api/v1/query/osint_insta",
+    "params": [
+      {
+        "name": "username",
+        "label": "Usuário",
+        "required": true
+      }
+    ]
+  },
+  "osint_spotify": {
+    "key": "osint_spotify",
+    "module": "OSINT",
+    "label": "Busca por usuário de música",
+    "method": "GET",
+    "path": "/api/v1/query/osint_spotify",
+    "params": [
+      {
+        "name": "q",
+        "label": "Busca",
+        "required": true
+      }
+    ]
+  },
+  "osint_google": {
+    "key": "osint_google",
+    "module": "OSINT",
+    "label": "Busca por email",
+    "method": "GET",
+    "path": "/api/v1/query/osint_google",
+    "params": [
+      {
+        "name": "email",
+        "label": "EMAIL",
+        "required": true
+      }
+    ]
+  },
+  "geo": {
+    "key": "geo",
+    "module": "Profissional e veículos",
+    "label": "Geo",
+    "method": "GET",
+    "path": "/api/v1/query/geo",
+    "params": [
+      {
+        "name": "cep",
+        "label": "CEP",
+        "required": true
+      },
+      {
+        "name": "limit",
+        "label": "Limite",
+        "required": false
+      }
+    ]
+  }
+}

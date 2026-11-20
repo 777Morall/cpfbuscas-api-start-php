@@ -1,0 +1,26 @@
+{
+  "name": "cpfbuscas-examples/cpfbuscas-api-start-php",
+  "description": "API Start em PHP: consulta simples de cnpj e cep, Bearer, JSON e limite de 20 req/min.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "scripts": {
+    "test": "php tests/run.php"
+  },
+  "keywords": [
+    "php",
+    "cpfbuscas",
+    "api-rest",
+    "consulta-cnpj",
+    "consulta-cpf",
+    "consulta-cep",
+    "curl",
+    "json",
+    "exemplos-php",
+    "api-start"
+  ]
+}
