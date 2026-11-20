@@ -2,7 +2,7 @@
 
 API Start em PHP: consulta simples de cnpj e cep, Bearer, JSON e limite de 20 req/min.
 
-> **Conheça o CPF Buscas:** consulte os módulos disponíveis pelo painel ou integre seu sistema com a API. [Acesse cpfbuscas.com](https://cpfbuscas.com/?utm_source=github&utm_medium=readme&utm_campaign=exemplos_php), [compare os planos da API](https://cpfbuscas.com/api) e [crie sua conta](https://cpfbuscas.com/cadastro). Painel e API têm assinaturas separadas.
+> **Conheça o CPF Buscas:** consulte os módulos disponíveis pelo painel ou integre seu sistema com a API. [Acesse cpfbuscas.net](https://cpfbuscas.net/?utm_source=github&utm_medium=readme&utm_campaign=exemplos_php), [compare os planos da API](https://cpfbuscas.net/api) e [crie sua conta](https://cpfbuscas.net/cadastro). Painel e API têm assinaturas separadas.
 
 ## O que este exemplo faz
 
@@ -40,10 +40,10 @@ Use somente dados para os quais tenha autorização e finalidade legítima. A re
 
 ## Autenticação, limites e falhas
 
-- Base: https://cpfbuscas.com/api/v1; Bearer no cabeçalho e Accept: application/json.
+- Base: https://cpfbuscas.net/api/v1; Bearer no cabeçalho e Accept: application/json.
 - O cliente espaça chamadas sequenciais a 20 req/min, com margem de 10 ms. É um limitador de um processo, não um limitador distribuído. Outras aplicações e chaves compartilham a cota; coordene-as em produção.
 - HTTP 401: chave; 403: assinatura; 404: rota; 422: parâmetros; 429: aguarde; 503: indisponibilidade. Não há repetição automática. Retry-After é exposto se o servidor o enviar.
-- Para mudar ao domínio oficial alternativo, exporte CPFBUSCAS_BASE_URL=https://cpfbuscas.net/api/v1 e confira a chave com o comando me. A troca não renova limites e ambos podem compartilhar uma falha de infraestrutura.
+- A URL base usada é https://cpfbuscas.net/api/v1. Você pode configurá-la pela variável CPFBUSCAS_BASE_URL. Confira sua chave com o comando me. A configuração não altera a cota da conta.
 - POST não deve ser repetido após timeout sem conferência. O catálogo registra o POST de placas conforme a query string documentada; o formato interno de placas não está detalhado, portanto não presumimos array ou separador.
 
 ## Verificação local
@@ -60,7 +60,7 @@ Os testes usam transporte simulado para autenticação, encoding, validação e 
 
 ## Fontes e atualização
 
-Conferido em **20/11/2026**: [documentação](https://cpfbuscas.com/api-docs), [planos da API](https://cpfbuscas.com/api) e [planos do painel](https://cpfbuscas.com/planos). Valores e limites podem mudar. Exemplos independentes; não afirmam vínculo oficial.
+Conferido em **20/11/2026**: [documentação](https://cpfbuscas.net/api-docs), [planos da API](https://cpfbuscas.net/api) e [planos do painel](https://cpfbuscas.net/planos). Valores e limites podem mudar. Exemplos independentes; não afirmam vínculo oficial.
 
 ## Outros exemplos por plano
 

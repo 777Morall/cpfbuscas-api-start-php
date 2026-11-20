@@ -1,6 +1,6 @@
 # Catálogo de endpoints CPF Buscas
 
-Métodos e parâmetros conferidos na [documentação oficial](https://cpfbuscas.com/api-docs) em 20/11/2026. Obrigatório aparece com **\***. Campos de resposta não são presumidos.
+Métodos e parâmetros conferidos na [documentação oficial](https://cpfbuscas.net/api-docs) em 20/11/2026. Obrigatório aparece com **\***. Campos de resposta não são presumidos.
 
 | Módulo | Método e caminho | Parâmetros |
 |---|---|---|
